@@ -12,6 +12,11 @@ const listOfTodo = [
     description: "Practice english",
     done: false,
   },
+  {
+    id: 3,
+    description: "Go to the gym",
+    done: false,
+  },
 ]
 
 let getStatus = (todo) => (todo.done) ? "DONE" : "TODO";
